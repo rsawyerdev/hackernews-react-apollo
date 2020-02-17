@@ -61,9 +61,6 @@ class Search extends Component {
     )
   }
 
-  _executeSearch = async () => {
-    // ... you'll implement this 🔜
-  }
 }
 
 export default withApollo(Search)
