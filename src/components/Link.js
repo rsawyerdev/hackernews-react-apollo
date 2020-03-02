@@ -27,6 +27,7 @@ const VOTE_MUTATION = gql`
 class Link extends Component {
     render() {
         const authToken = localStorage.getItem(AUTH_TOKEN)
+        console.log(this.props)
         return (
             <div className="flex mt2 items-start">
                 <div className="flex items-center">
